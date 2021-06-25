@@ -3,12 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		3E27C2F62685A31400512FAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C2F52685A31400512FAB /* AppDelegate.swift */; };
-		3E27C2F82685A31400512FAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C2F72685A31400512FAB /* SceneDelegate.swift */; };
 		3E27C2FA2685A31400512FAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C2F92685A31400512FAB /* ViewController.swift */; };
 		3E27C2FD2685A31400512FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E27C2FB2685A31400512FAB /* Main.storyboard */; };
 		3E27C2FF2685A31800512FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E27C2FE2685A31800512FAB /* Assets.xcassets */; };
@@ -33,7 +32,6 @@
 /* Begin PBXFileReference section */
 		3E27C2F22685A31400512FAB /* TimeCardTint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeCardTint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E27C2F52685A31400512FAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E27C2F72685A31400512FAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3E27C2F92685A31400512FAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3E27C2FC2685A31400512FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E27C2FE2685A31800512FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,11 +89,10 @@
 		3E27C2F42685A31400512FAB /* TimeCardTint */ = {
 			isa = PBXGroup;
 			children = (
+				3E27C2F52685A31400512FAB /* AppDelegate.swift */,
 				3E27C3182685A7E500512FAB /* CustomUIComponents */,
 				3E27C30B2685A7D700512FAB /* AppUtils */,
 				3E27C3092685A70A00512FAB /* LoginAndSingUpDataModel.swift */,
-				3E27C2F52685A31400512FAB /* AppDelegate.swift */,
-				3E27C2F72685A31400512FAB /* SceneDelegate.swift */,
 				3E27C2F92685A31400512FAB /* ViewController.swift */,
 				3E27C2FB2685A31400512FAB /* Main.storyboard */,
 				3E27C2FE2685A31800512FAB /* Assets.xcassets */,
@@ -146,7 +143,6 @@
 				75E93D24350FDE377316D820 /* Pods-TimeCardTint.debug.xcconfig */,
 				F2845637A7276974279F2E6F /* Pods-TimeCardTint.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -279,7 +275,6 @@
 				3E27C3152685A7D700512FAB /* Enums.swift in Sources */,
 				3E27C3232685A7E500512FAB /* SemiRoundView.swift in Sources */,
 				3E27C3172685A7D700512FAB /* Utilities.swift in Sources */,
-				3E27C2F82685A31400512FAB /* SceneDelegate.swift in Sources */,
 				3E27C3262685A7E500512FAB /* WhiteTintUIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
