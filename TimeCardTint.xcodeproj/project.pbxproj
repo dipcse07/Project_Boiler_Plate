@@ -13,6 +13,20 @@
 		3E27C2FD2685A31400512FAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E27C2FB2685A31400512FAB /* Main.storyboard */; };
 		3E27C2FF2685A31800512FAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E27C2FE2685A31800512FAB /* Assets.xcassets */; };
 		3E27C3022685A31800512FAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E27C3002685A31800512FAB /* LaunchScreen.storyboard */; };
+		3E27C30A2685A70A00512FAB /* LoginAndSingUpDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C3092685A70A00512FAB /* LoginAndSingUpDataModel.swift */; };
+		3E27C3122685A7D700512FAB /* ApiHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C30C2685A7D700512FAB /* ApiHandler.swift */; };
+		3E27C3132685A7D700512FAB /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C30D2685A7D700512FAB /* AppConstants.swift */; };
+		3E27C3142685A7D700512FAB /* CustomProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C30E2685A7D700512FAB /* CustomProtocols.swift */; };
+		3E27C3152685A7D700512FAB /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C30F2685A7D700512FAB /* Enums.swift */; };
+		3E27C3162685A7D700512FAB /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C3102685A7D700512FAB /* Extensions.swift */; };
+		3E27C3172685A7D700512FAB /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C3112685A7D700512FAB /* Utilities.swift */; };
+		3E27C3202685A7E500512FAB /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C3192685A7E500512FAB /* RoundedButton.swift */; };
+		3E27C3212685A7E500512FAB /* RoundedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31A2685A7E500512FAB /* RoundedTextView.swift */; };
+		3E27C3222685A7E500512FAB /* RoundedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31B2685A7E500512FAB /* RoundedView.swift */; };
+		3E27C3232685A7E500512FAB /* SemiRoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31C2685A7E500512FAB /* SemiRoundView.swift */; };
+		3E27C3242685A7E500512FAB /* ThemeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31D2685A7E500512FAB /* ThemeUIView.swift */; };
+		3E27C3252685A7E500512FAB /* UnderLIneLable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31E2685A7E500512FAB /* UnderLIneLable.swift */; };
+		3E27C3262685A7E500512FAB /* WhiteTintUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E27C31F2685A7E500512FAB /* WhiteTintUIButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +38,20 @@
 		3E27C2FE2685A31800512FAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E27C3012685A31800512FAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E27C3032685A31800512FAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E27C3092685A70A00512FAB /* LoginAndSingUpDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAndSingUpDataModel.swift; sourceTree = "<group>"; };
+		3E27C30C2685A7D700512FAB /* ApiHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiHandler.swift; sourceTree = "<group>"; };
+		3E27C30D2685A7D700512FAB /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		3E27C30E2685A7D700512FAB /* CustomProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomProtocols.swift; sourceTree = "<group>"; };
+		3E27C30F2685A7D700512FAB /* Enums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		3E27C3102685A7D700512FAB /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3E27C3112685A7D700512FAB /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		3E27C3192685A7E500512FAB /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		3E27C31A2685A7E500512FAB /* RoundedTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedTextView.swift; sourceTree = "<group>"; };
+		3E27C31B2685A7E500512FAB /* RoundedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedView.swift; sourceTree = "<group>"; };
+		3E27C31C2685A7E500512FAB /* SemiRoundView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SemiRoundView.swift; sourceTree = "<group>"; };
+		3E27C31D2685A7E500512FAB /* ThemeUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeUIView.swift; sourceTree = "<group>"; };
+		3E27C31E2685A7E500512FAB /* UnderLIneLable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnderLIneLable.swift; sourceTree = "<group>"; };
+		3E27C31F2685A7E500512FAB /* WhiteTintUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhiteTintUIButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,9 @@
 		3E27C2F42685A31400512FAB /* TimeCardTint */ = {
 			isa = PBXGroup;
 			children = (
+				3E27C3182685A7E500512FAB /* CustomUIComponents */,
+				3E27C30B2685A7D700512FAB /* AppUtils */,
+				3E27C3092685A70A00512FAB /* LoginAndSingUpDataModel.swift */,
 				3E27C2F52685A31400512FAB /* AppDelegate.swift */,
 				3E27C2F72685A31400512FAB /* SceneDelegate.swift */,
 				3E27C2F92685A31400512FAB /* ViewController.swift */,
@@ -65,6 +96,33 @@
 				3E27C3032685A31800512FAB /* Info.plist */,
 			);
 			path = TimeCardTint;
+			sourceTree = "<group>";
+		};
+		3E27C30B2685A7D700512FAB /* AppUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3E27C30C2685A7D700512FAB /* ApiHandler.swift */,
+				3E27C30D2685A7D700512FAB /* AppConstants.swift */,
+				3E27C30E2685A7D700512FAB /* CustomProtocols.swift */,
+				3E27C30F2685A7D700512FAB /* Enums.swift */,
+				3E27C3102685A7D700512FAB /* Extensions.swift */,
+				3E27C3112685A7D700512FAB /* Utilities.swift */,
+			);
+			path = AppUtils;
+			sourceTree = "<group>";
+		};
+		3E27C3182685A7E500512FAB /* CustomUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				3E27C3192685A7E500512FAB /* RoundedButton.swift */,
+				3E27C31A2685A7E500512FAB /* RoundedTextView.swift */,
+				3E27C31B2685A7E500512FAB /* RoundedView.swift */,
+				3E27C31C2685A7E500512FAB /* SemiRoundView.swift */,
+				3E27C31D2685A7E500512FAB /* ThemeUIView.swift */,
+				3E27C31E2685A7E500512FAB /* UnderLIneLable.swift */,
+				3E27C31F2685A7E500512FAB /* WhiteTintUIButton.swift */,
+			);
+			path = CustomUIComponents;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +196,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E27C2FA2685A31400512FAB /* ViewController.swift in Sources */,
+				3E27C3212685A7E500512FAB /* RoundedTextView.swift in Sources */,
+				3E27C3162685A7D700512FAB /* Extensions.swift in Sources */,
+				3E27C3132685A7D700512FAB /* AppConstants.swift in Sources */,
+				3E27C3242685A7E500512FAB /* ThemeUIView.swift in Sources */,
+				3E27C3252685A7E500512FAB /* UnderLIneLable.swift in Sources */,
+				3E27C30A2685A70A00512FAB /* LoginAndSingUpDataModel.swift in Sources */,
+				3E27C3122685A7D700512FAB /* ApiHandler.swift in Sources */,
 				3E27C2F62685A31400512FAB /* AppDelegate.swift in Sources */,
+				3E27C3222685A7E500512FAB /* RoundedView.swift in Sources */,
+				3E27C3202685A7E500512FAB /* RoundedButton.swift in Sources */,
+				3E27C3142685A7D700512FAB /* CustomProtocols.swift in Sources */,
+				3E27C3152685A7D700512FAB /* Enums.swift in Sources */,
+				3E27C3232685A7E500512FAB /* SemiRoundView.swift in Sources */,
+				3E27C3172685A7D700512FAB /* Utilities.swift in Sources */,
 				3E27C2F82685A31400512FAB /* SceneDelegate.swift in Sources */,
+				3E27C3262685A7E500512FAB /* WhiteTintUIButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
