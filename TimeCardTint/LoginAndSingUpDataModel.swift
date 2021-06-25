@@ -3,7 +3,7 @@
 //  TimeCardTint
 //
 //  Created by MD SAZID HASAN DIP on 25/6/21.
-//
+
 
 //import Foundation
 //import ObjectMapper
@@ -82,3 +82,6 @@
 //    var type: String?
 //    
 //}
+
+
+//there will be no realm 
